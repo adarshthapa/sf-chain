@@ -1,0 +1,27 @@
+{
+  "name": "sf-chain",
+  "version": "1.0.0",
+  "description": "Cryptocurrency",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "dev-test": "nodemon dev-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adarshthapa/sf-chain.git"
+  },
+  "author": "Adarsh Thapa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adarshthapa/sf-chain/issues"
+  },
+  "homepage": "https://github.com/adarshthapa/sf-chain#readme",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}
